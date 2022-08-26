@@ -1,12 +1,10 @@
 package domain.catalog;
 
-public interface LabelLimits {
+public record LabelLimits(Key key, Limits limits) {
 
-    float getUpperLimit();
+    public record Key(Nutrient nutrient, Measurement measurement) {
+    }
 
-    float getLowerLimit();
-
-    Measurement getMeasurement();
-
-    Nutrient getNutrient();
+    public record Limits(float upper, float lower) {
+    }
 }
