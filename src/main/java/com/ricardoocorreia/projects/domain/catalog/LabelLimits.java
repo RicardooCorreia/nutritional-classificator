@@ -1,4 +1,4 @@
-package domain.catalog;
+package com.ricardoocorreia.projects.domain.catalog;
 
 public record LabelLimits(Key key, Limits limits) {
 

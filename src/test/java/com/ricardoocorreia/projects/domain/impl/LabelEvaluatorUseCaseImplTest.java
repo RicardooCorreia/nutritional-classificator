@@ -1,4 +1,4 @@
-package domain.impl;
+package com.ricardoocorreia.projects.domain.impl;
 
 import com.github.javafaker.Faker;
 import domain.api.LabelEvaluatorUseCase;

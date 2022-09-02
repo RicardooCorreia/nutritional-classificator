@@ -1,4 +1,4 @@
-package domain.catalog;
+package com.ricardoocorreia.projects.domain.catalog;
 
 public enum Nutrient {
     FAT,

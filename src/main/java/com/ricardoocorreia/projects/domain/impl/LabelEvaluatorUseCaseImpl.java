@@ -1,12 +1,12 @@
-package domain.impl;
+package com.ricardoocorreia.projects.domain.impl;
 
 import domain.api.LabelEvaluatorUseCase;
-import domain.catalog.EvaluationResult;
-import domain.catalog.Label;
-import domain.catalog.LabelLimits;
-import domain.catalog.Measurement;
-import domain.catalog.Nutrient;
-import domain.catalog.NutrientScore;
+import com.ricardoocorreia.projects.domain.catalog.EvaluationResult;
+import com.ricardoocorreia.projects.domain.catalog.Label;
+import com.ricardoocorreia.projects.domain.catalog.LabelLimits;
+import com.ricardoocorreia.projects.domain.catalog.Measurement;
+import com.ricardoocorreia.projects.domain.catalog.Nutrient;
+import com.ricardoocorreia.projects.domain.catalog.NutrientScore;
 import lombok.RequiredArgsConstructor;
 
 import java.util.Map;
